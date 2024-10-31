@@ -63,3 +63,7 @@
   * added padding in all sides, increases the size of the element
   * ```padding: 18px 20px``` indicate that top and bottom have 18 pixels and right and left have 20 pixels
   * clockwise
+
+* offset
+  * ```x``` equals horizontal
+  * ```y``` equals vertical
