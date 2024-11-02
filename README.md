@@ -18,6 +18,9 @@
   * ```<nav>``` navigation
   * ```<a>``` anchor
 
+* divs
+  * use divs only when tags have no semantic values
+
 ## css
 
 * color system
