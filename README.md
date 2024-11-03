@@ -70,3 +70,7 @@
 * offset
   * ```x``` equals horizontal
   * ```y``` equals vertical
+
+* size and alignment strategy
+  * use padding to set the size of the parent element
+  * align child elements with parent element properties
