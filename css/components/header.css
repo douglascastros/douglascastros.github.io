@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7C5E99;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+}
+
+.header .logo {
+    transition: transform 100ms cubic-bezier(.45, .97, .68, 2.48);
+}
+
+.header .logo:hover {
+    transform: scale(1.08);
+}

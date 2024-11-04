@@ -4,6 +4,7 @@
     box-shadow: 5px 5px 0px #000;
     padding: 18px 20px;
     margin-right: 0;
+    text-decoration: none;
     transition: transform 100ms cubic-bezier(.45, .97, .68, 2.48);
 }
 
