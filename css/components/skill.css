@@ -1,5 +1,6 @@
 .skill {
     display: flex;
+    align-items: center;
     font-family: 'Press Start 2P', sans-serif;
     font-size: 25px;
     color: #FFF;
@@ -7,10 +8,15 @@
 
 .skill .icon {
     margin-right: 25px;
+    width: 90px;
 }
 
 .skill .right {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.skill .title {
+    margin-bottom: 10px;
 }

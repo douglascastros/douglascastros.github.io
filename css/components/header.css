@@ -8,9 +8,5 @@
 
 .header .logo {
     cursor: pointer;
-    transition: transform 100ms cubic-bezier(.45, .97, .68, 2.48);
-}
-
-.header .logo:hover {
-    transform: scale(1.08);
+    box-shadow: 3px 3px 0 #000;
 }

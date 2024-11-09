@@ -1,0 +1,7 @@
+.transition {
+    transition: transform 100ms cubic-bezier(.45, .97, .68, 2.48);
+}
+
+.transition:hover {
+    transform: scale(1.08);
+}
