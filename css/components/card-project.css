@@ -9,5 +9,13 @@
 }
 
 .card-project .logo {
-    width: 100%;
+    width: 150px;
+}
+
+.card-project.-blue {
+    background-color: #4C5B84;
+}
+
+.card-project.-pink {
+    background-color: #F25A70;
 }
