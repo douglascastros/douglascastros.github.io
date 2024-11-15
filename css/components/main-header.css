@@ -1,4 +1,4 @@
-.header {
+.main-header {
     display: flex;
     justify-content: space-between;
     background-color: #7C5E99;
@@ -6,7 +6,7 @@
     padding: 10px 30px;
 }
 
-.header .logo {
+.main-header .logo {
     cursor: pointer;
     box-shadow: 3px 3px 0 #000;
 }
