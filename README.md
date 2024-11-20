@@ -71,6 +71,9 @@
   * ```x``` equals horizontal
   * ```y``` equals vertical
 
+* line-height
+  * ```1.4``` multiplicator of 40% of size font
+
 * size and alignment strategy
   * use padding to set the size of the parent element
   * align child elements with parent element properties
