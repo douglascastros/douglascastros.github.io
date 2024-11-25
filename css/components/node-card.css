@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin-right: 10px;
 }
 
 .node-card::before {
