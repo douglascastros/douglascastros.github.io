@@ -77,3 +77,7 @@
 * size and alignment strategy
   * use padding to set the size of the parent element
   * align child elements with parent element properties
+
+* use the gpu to animate the css
+  * transform
+  * opacity
