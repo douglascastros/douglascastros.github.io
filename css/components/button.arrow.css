@@ -4,8 +4,6 @@
     box-shadow: 5px 5px 0px #000;
     background-color: #F25A70;
     cursor: pointer;
-
-    display: none;
 }
 
 .button-arrow::before {
