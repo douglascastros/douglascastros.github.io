@@ -3,7 +3,6 @@
     padding-left: 85px;
     padding-right: 85px;
     display: flex;
-    justify-content: space-between;
 }
 
 .main-carousel::before {
@@ -14,6 +13,7 @@
     display: block;
     border: 2.5px dashed #000;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .main-carousel::after {
@@ -42,7 +42,11 @@
 }
 
 .main-carousel .items {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-carousel .elements {
     display: flex;
     justify-content: space-between;
-    width: 100%;
 }

@@ -81,3 +81,5 @@
 * use the gpu to animate the css
   * transform
   * opacity
+
+* ```box-sizing: border-box``` does not increase margin values ​​by the element size
