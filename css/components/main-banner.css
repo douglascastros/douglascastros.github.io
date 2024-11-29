@@ -10,7 +10,7 @@
 }
 
 .main-banner:has(.wrapper:hover) {
-    background-image: url(../../assets/img/photo.png);
+    /* background-image: url(../../assets/img/photo.png); */
 }
 
 .main-banner .wrapper {
