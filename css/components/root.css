@@ -5,3 +5,7 @@
 .transition:hover {
     transform: scale(1.08);
 }
+
+.transition:active {
+    transform: scale(1.08);
+}
