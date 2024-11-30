@@ -36,5 +36,5 @@
 }
 
 .node-card img {
-    width: calc(1270px / 5 - 60px);
+    width: calc(((100vw - 170px) / 6) - 60px);
 }
