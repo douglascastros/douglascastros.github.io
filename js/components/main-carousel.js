@@ -1,14 +1,15 @@
 const btnRight = document.querySelector('.button-arrow.-right');
 const btnLeft = document.querySelector('.button-arrow.-left');
 const elements = document.querySelector('.elements');
+const cardWidth = parseInt(((window.innerWidth - 170) / 6) + 3);
 
 let pixels = 0;
 
 btnRight.addEventListener('click', function () {
     let limit = parseInt(elements.style.transform.replace(/\D/g, ''));
 
-    if (limit !== 215) {
-        pixels -= 215;
+    if (limit !== cardWidth) {
+        pixels -= cardWidth;
         elements.style = `transform: translateX(${pixels}px)`;
     }
 });
@@ -16,8 +17,8 @@ btnRight.addEventListener('click', function () {
 btnLeft.addEventListener('click', function () {
     let limit = parseInt(elements.style.transform.replace(/\D/g, ''));
 
-    if (limit === 215) {
-        pixels += 215;
+    if (limit === cardWidth) {
+        pixels += cardWidth;
         elements.style = `transform: translateX(${pixels}px)`;
     }
 });
