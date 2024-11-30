@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin-right: 25px;
+    margin-right: 10px;
 }
 
 .node-card::before {
@@ -36,5 +36,5 @@
 }
 
 .node-card img {
-    width: 140px;
+    width: calc(1270px / 5 - 60px);
 }
