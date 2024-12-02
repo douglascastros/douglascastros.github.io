@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="css/components/main-footer.css">
     <link rel="stylesheet" href="css/components/main-label.css">
     <link rel="stylesheet" href="css/components/main-input.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
 </head>
 
 <body>
@@ -213,7 +214,7 @@
         </p>
     </section>
 
-    <form>
+    <form class="main-form">
         <label class="main-label" for="name">Nome</label>
         <input class="main-input" type="text" id="name">
 
@@ -221,16 +222,16 @@
         <input class="main-input" type="email" id="email">
 
         <label class="main-label" for="message">Mensagem</label>
-        <textarea class="main-input" id="message"></textarea>
+        <textarea class="main-input -textarea" id="message"></textarea>
 
-        <button type="submit">Enviar</button>
+        <button class="main-button -full" type="submit">Enviar</button>
     </form>
 
     <footer class="main-footer">
-        <a class="action -instagram" href="https://www.instagram.com/douglas.henriquees/" target="_blank">
+        <a class="action -instagram transition" href="https://www.instagram.com/douglas.henriquees/" target="_blank">
             <img src="/assets/img/instagram_logo.png" alt="Logo do Instagram">
         </a>
-        <a class="action" href="https://www.linkedin.com/in/douglas-castro-819b7434/" target="_blank">
+        <a class="action transition" href="https://www.linkedin.com/in/douglas-castro-819b7434/" target="_blank">
             <img src="/assets/img/linkedin_logo.png" alt="Logo do Linkedin">
         </a>
     </footer>
