@@ -1,0 +1,10 @@
+.main-input {
+    border: 5px solid #000;
+    font-size: 30px;
+    height: 50px;
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+}
