@@ -1,0 +1,7 @@
+.icon-menu {
+    background: url(../../assets/img/ico_hamburger_menu.png) no-repeat left bottom 50%;
+    background-color: #4C5B84;
+    box-shadow: 3px 3px 0 #000;
+    width: 65px;
+    text-indent: -9999px;
+}

@@ -84,4 +84,6 @@
 
 * ```box-sizing: border-box``` does not increase margin values ​​by the element size
 
-* ```@media``` have as default property ```screen```
+* ```@media``` has the default property ```screen```
+
+* ```text-indent: -9999px``` to hide text without causing scrolling

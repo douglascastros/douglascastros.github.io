@@ -16,3 +16,9 @@
         display: none;
     }
 }
+
+@media (min-width: 980px) {
+    .main-header > .icon-menu {
+        display: none;
+    }
+}
