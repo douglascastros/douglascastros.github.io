@@ -83,3 +83,5 @@
   * opacity
 
 * ```box-sizing: border-box``` does not increase margin values ​​by the element size
+
+* ```@media``` have as default property ```screen```
