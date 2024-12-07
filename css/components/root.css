@@ -10,7 +10,7 @@
     transform: scale(1.08);
 }
 
-@media screen and (max-width: 860px) {
+/* @media screen and (max-width: 860px) {
     .main-header .logo {
         display: none;
     }
@@ -46,4 +46,4 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
-}
+} */
