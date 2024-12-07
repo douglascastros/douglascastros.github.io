@@ -39,6 +39,11 @@
     }
 
     .wrapper-skill .skill:nth-child(odd) {
-        margin-right: 0 !important;
+        margin-right: 0;
+    }
+
+    .main-section {
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
